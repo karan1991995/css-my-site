@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+hr {
+    border-width: 10px;
+    border-color: #EAF6F6;
+    border-style: dotted none none;
+    width: 15%;
+}
+
+.middle-container {
+    padding-top: 100px;
+}
+
+.bottom-container {
+    padding: 5px 0px 20px ;
+    
+}
+
+.copyright-text{
+    color: #66BFBF;
+    font-size: 0.75rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.cloud-image-top {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.cloud-image-bottom {
+    position: absolute;
+    left: 300px;
+    bottom: 300px
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.automation-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.selenium-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.Java-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Cucumber-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.Software-Testing-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Cypress-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.dsa-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Java-script-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.CSS-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-me {
+    padding-bottom: 100px;
+
+}
+
+a:link, a:visited {
+    background-color: #66BFBF;;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(132, 255, 0);
+  }
