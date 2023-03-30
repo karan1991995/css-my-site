@@ -1,93 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Karan Raju</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Karan Raju</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap-jquery  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 
 <body>
-    <div class="top-container">
-        <img class="cloud-image-top" src="images/cloud.png" alt="cloud-image">
-        <h1>I'm Karan Raju.</h1>
-        <h2>A <span class="underline">Quality</span> Engineer</h2>
-        <img class="cloud-image-bottom" src="images/cloud.png" alt="cloud-image">
-        <img class="mountain-image" src="images/mountain.png" alt="mountain-image">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img src="images/profile.jpeg" alt="">
-          <h2>Hello.</h2>
-          <p>I am a Software Quality Engineer. I ❤️ solving problems and automate repetitive tasks.</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="automation-img" src="images/automation-logo.png" alt="automation-logo">
-            <h3>Test Automation</h3>
-            <p>Have around 5+ Years of Experience in Test Automation</p>
-          </div>
-          <div class="skill-row">
-            <img class="selenium-img" src="images/selenium-logo.png" alt="selenium-logo">
-            <h3>Selenium</h3>
-            <p>Have around 5+ Years of Experience in Selenium</p>
-          </div>
-          <div class="skill-row">
-            <img class="Java-img" src="images/java-logo.png" alt="java-logo">
-            <h3>Java</h3>
-            <p>Have around 5+ Years of Experience in Java</p>
-          </div>
-          <div class="skill-row">
-            <img class="Cucumber-img" src="images/cucumber-logo.png" alt="cucumber-logo">
-            <h3>Cucumber</h3>
-            <p>Have around 3+ Years of Experience in Cucumber</p>
-          </div>
-          <div class="skill-row">
-            <img class="Software-Testing-img" src="images/testing-logo.png" alt="testing-logo">
-            <h3>Software-Testing</h3>
-            <p>Have around 5+ Years of Experience in Software-Testing</p>
-          </div>
-          <div class="skill-row">
-            <img class="Cypress-img" src="images/cypress-logo.png" alt="cypress-logo">
-            <h3>Cypress</h3>
-            <p>Have around 2+ Years of Experience in Cypress</p>
-          </div>
-          <div class="skill-row">
-            <img class="dsa-img" src="images/dsa-logo.png" alt="dsa-logo">
-            <h3>Data-Structure</h3>
-            <p>Have apt knowledge in DSA</p>
-          </div>
-          <div class="skill-row">
-            <img class="Java-script-img" src="images/java-script-logo.png" alt="java-script-logo">
-            <h3>Java-Script</h3>
-            <p>Have around 3+ Years of Experience in Java-Script</p>
-          </div>
+  <div id="intro-section" class="top-container">
+    <img class="cloud-image-top" src="images/cloud.png" alt="cloud-image">
+    <h1>I'm Karan Raju.</h1>
+    <h2>A <span class="underline">Quality</span> Engineer</h2>
+    <img class="cloud-image-bottom" src="images/cloud.png" alt="cloud-image">
+    <img class="mountain-image" src="images/mountain.png" alt="mountain-image">
+  </div>
 
-          <div class="skill-row">
-            <img class="CSS-img" src="images/css-logo.png" alt="css-logo">
-            <h3>CSS</h3>
-            <p>Have around 2+ Years of Experience in CSS</p>
-          </div>
+  <hr>
+
+  <div id="profile-and-experience" class="middle-container">
+    <div class="profile">
+      <img class="profile-image" src="images/profile.jpeg" alt="">
+      <h2>Hello.</h2>
+      <p>I am a Software Quality Engineer. I ❤️ solving problems and automate repetitive tasks.</p>
+    </div>
+
+    <hr>
+
+    <h2 class="experience-h2">My experience</h2>
+    <table class="table table-hover table-bordered experience-table">
+      <thead class="table-info">
+        <tr>
+          <th>Date</th>
+          <th>Job Title</th>
+          <th>&nbsp;&nbsp;&nbsp;&emsp;Roles/Responsibilities</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apr 2022-Present</td>
+          <td>Sr Quality Engineer at M3BI</td>
+          <td>
+            <ul>
+              <li> Covering automation from SIT to regression while working on DevOps initiatives for building
+                different stages in Jenkins</li>
+              <li> Administering the deployment of REST API Services on AWS EC2 Instances and supporting
+                testing of AWS Cloud</li>
+              <li> Migration from On-Prem to Cloud</li>
+              <li> Supervising and mentoring the Team Members to migrate from Selenium Web-driver to Cypress
+              </li>
+              <li> Assessing the scope of automation in various manual tasks in terms of reporting and
+                covering CRM Tools</li>
+              <li> Helping team members across the portfolio by managing & supporting on the multiple
+                automation utilities</li>
+            </ul>
+
+          </td>
+
+        </tr>
+        <tr>
+          <td>Feb 2021-Apr 2022</td>
+          <td>Quality Engineer at M3BI</td>
+          <td>
+            <ul>
+              <li>Performing user traffic Analysis using Logging Tools like Sumo-logic & Glass-Box and Service
+                Virtualization of API using Wire-Mock</li>
+              <li>Performing manual and automated testing</li>
+              <li>Reviewing quality specifications and technical design documents to provide timely &
+                meaningful feedback</li>
+              <li>Creating detailed, comprehensive and well-structured test plans and test cases</li>
+              <li>Estimating, prioritizing, planning and coordinating quality testing activities</li>
+              <li>Executing project plans within deadlines and defining best practices for project support &
+                documentation</li>
+              <li>Coordinating with developers, discussing technical problems, reporting bugs and supporting
+                in rectifying issues</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Oct 2020-Feb 2021</td>
+          <td>Associate Quality Engineer at CTS</td>
+          <td>
+            <ul>
+              <li>Leading all Quality Engineer aspects from Offshore</li>
+              <li>Maintained Selenium Regression suite of 2 to 3 web applications</li>
+              <li>Maintanence of Product Quality Metrics</li>
+              <li>Was Key member in providing sign offs from Quality Engineering standpoint for multiple
+                production releases</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td>May 2018-Oct 2020</td>
+          <td>Quality Engineer at CTS</td>
+          <td>
+            <ul>
+
+              <li>Conducted Testing using JMeter which includes Covers Break Even Testing, Load Testing and
+                Endurance Testing</li>
+              <li> Performed enhancement of Automation Framework by replacing Excel Libraries with JSON
+                Libraries
+              </li>
+              <li> Prepared Cucumber BDD Rest Assured scripts for API Test Cases</li>
+              <li> Coordinated in defect triage calls</li>
+              <li> Created & maintained test automation platform; conducted product functional reviews as per
+                test
+                specifications and prepared requirement traceability matrix, test data & test completion
+                report
+              </li>
+              <li> Maged the software quality process involving review of product functions, test
+                specifications &
+                documentation, defect prevention, metrics collection, team leadership & analysis, debugging
+                &
+                resolution of issues</li>
+              <li> Attended training sessions on latest technologies and worked on team building activities
+                for
+                operational excellence</li>
+            </ul>
+
+          </td>
+        </tr>
+        <tr>
+          <td>Dec 2017-May 2018</td>
+          <td>Quality Engineer Trainee at CTS</td>
+          <td>
+            <ul>
+              <li>Trained in Software Testing</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+    </table>
+
+    <hr>
+    <h2 class="experience-h2">My Skills.</h2>
+    <div id="my-skills-section" class="carousel slide" data-ride="false" class="skills">
+      <div class="carousel-inner">
+        <div class="carousel-item active skill-row">
+          <img class="skills-image" src="images/automation-logo.png" alt="automation-logo">
+          <h3>Test Automation</h3>
+          <p>Have around 5+ Years of Experience in Test Automation</p>
         </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>if you love solving problems as much as I do.</h3>
-          <p>We can discuss over a glass of beer 🍻</p>
-          <a class="btn" href="mailto:karannarayana8@gmail.com">CONTACT ME</a>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/selenium-logo.png" alt="selenium-logo">
+          <h3>Selenium</h3>
+          <p>Have around 5+ Years of Experience in Selenium</p>
         </div>
-      </div>  
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/karan-raju-750445117/">LinkedIn</a>
-        <p class="copyright-text">© 2023 Karan Raju.</p>
-      </div>      
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/java-logo.png" alt="java-logo">
+          <h3>Java</h3>
+          <p>Have around 5+ Years of Experience in Java</p>
+        </div>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/cucumber-logo.png" alt="cucumber-logo">
+          <h3>Cucumber</h3>
+          <p>Have around 3+ Years of Experience in Cucumber</p>
+        </div>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/testing-logo.png" alt="testing-logo">
+          <h3>Software-Testing</h3>
+          <p>Have around 5+ Years of Experience in Software-Testing</p>
+        </div>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/cypress-logo.png" alt="cypress-logo">
+          <h3>Cypress</h3>
+          <p>Have around 2+ Years of Experience in Cypress</p>
+        </div>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/dsa-logo.png" alt="dsa-logo">
+          <h3>Data-Structure</h3>
+          <p>Have apt knowledge in DSA</p>
+        </div>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/java-script-logo.png" alt="java-script-logo">
+          <h3>Java-Script</h3>
+          <p>Have around 3+ Years of Experience in Java-Script</p>
+        </div>
+
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/css-logo.png" alt="css-logo">
+          <h3>CSS</h3>
+          <p>Have around 2+ Years of Experience in CSS</p>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev skills-carousel-nav" href="#my-skills-section" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next skills-carousel-nav" href="#my-skills-section" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <hr>
+    <h2 class="experience-h2">My Certifications.</h2>
+    <div id="my-certifications-section" class="carousel slide" data-ride="false" class="skills">
+      <div class="carousel-inner">
+        <div class="carousel-item active skill-row">
+          <img class="skills-image" src="images/aws-certified-solutions-architect-associate.png" alt="aws-ssa-cert">
+          <p>AWS Solutions Architect Associate</p>
+        </div>
+        <div class="carousel-item skill-row">
+          <img class="skills-image" src="images/aws-certified-cloud-practitioner.png" alt="aws-cp-cert">
+          <p>AWS Cloud Practitioner</p>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev skills-carousel-nav" href="#my-certifications-section" role="button"
+        data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next skills-carousel-nav" href="#my-certifications-section" role="button"
+        data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>if you love solving problems as much as I do.</h3>
+      <p>We can discuss over a cup of tea 🍵</p>
+      <a class="btn" href="mailto:karannarayana8@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div id="footer-section" class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/karan-raju-750445117/">LinkedIn</a>
+    <p class="copyright-text">© 2023 Karan Raju.</p>
+  </div>
+
 </body>
 
 </html>
